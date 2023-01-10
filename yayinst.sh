@@ -7,4 +7,5 @@ cd yay
 if [ ! -f "/usr/bin/make" ]; then
     sudo pacman -Sy make
 fi
+sudo pacman -S go
 makepkg -sic
